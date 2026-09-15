@@ -8,9 +8,24 @@
 
 
 
+## 🔌 Diagrama de Conexiones 
+
+```text
+       [ PANTALLA LCD 16x2 ]             [ ARDUINO UNO / NANO ]
+       ┌───────────────────┐             ┌────────────────────┐
+       │             [GND] ├─────────────┤ [GND]              │
+       │             [VCC] ├─────────────┤ [5V]               │
+       │  Adaptador  [SDA] ├─────────────┤ [A4]               │
+       │   I2C (4 pins)    │             │                    │
+       │             [SCL] ├─────────────┤ [A5]               │
+       └───────────────────┘             └────────────────────┘
+```
 
 
 
 
 # TRAX-LCD-Monitor
 Monitor de recursos de PC y ecualizador inteligente automático para LCD 16x2 usando Arduino y Python.
+
+
+
